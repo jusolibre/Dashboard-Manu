@@ -9,6 +9,8 @@ if (PHP_SAPI == 'cli-server') {
     }
 }
 
+define('ASSET', str_replace('index.php', '', $_SERVER['SCRIPT_NAME']) . "assets/");
+
 require __DIR__ . '/../vendor/autoload.php';
 
 session_start();
