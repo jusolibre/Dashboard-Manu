@@ -1,0 +1,12 @@
+{
+    "name": "root/manu-dashboard",
+    "authors": [
+        {
+            "name": "Verbal-Kint",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.7"
+    }
+}
